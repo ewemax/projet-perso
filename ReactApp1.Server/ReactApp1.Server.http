@@ -1,0 +1,8 @@
+@ReactApp1.Server_HostAddress = http://localhost:5082
+
+GET {{ReactApp1.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+Post {{ReactApp1.Server_HostAddress}}/GridControlleur/
+Accept: application/json
+###
